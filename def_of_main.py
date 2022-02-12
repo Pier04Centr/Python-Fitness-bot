@@ -1,10 +1,10 @@
 from py_edamam import PyEdamam
-e = PyEdamam(nutrition_appid='cf37f7ac',
-        nutrition_appkey='b7d069580dd1d5cbf5c8657272795f04',
-        recipes_appid='80169d58',
-        recipes_appkey='5893371e5ba4334f2835e9dc2b353ed6',
-        food_appid='3ebc10df',
-        food_appkey='03982f5bca9ae8a02ae1160e839cae60')
+e = PyEdamam(nutrition_appid='your key',
+        nutrition_appkey='your key'',
+        recipes_appid='your key'',
+        recipes_appkey='your key'',
+        food_appid='your key'',
+        food_appkey='your key'')
 
 
 def bmr_calculation(weightInkgs,heightInCentimeters,age,maleorFemale):
